@@ -1,0 +1,71 @@
+.container {
+    text-align: center;
+    font-family: "PT Sans", "Arial", sans-serif;
+    max-width: 900px;
+    margin:0 auto;
+}
+
+body {
+    background-color: #66CDAA;
+}
+
+table {
+    margin: auto;
+}
+   
+td {
+    text-align: center;
+}
+
+p {
+    text-indent: 20px;
+    text-align: left;
+}
+
+li {
+    text-align: left;
+}
+
+.cvet {
+    list-style-type: none;
+}
+
+ul > li::before {
+    color: red;
+    content: "•";
+    padding-right: 10px;
+}
+
+.ramka {
+    width: 300px;
+    border-color: blue;
+    border-width: 5px;
+    border-style: dashed solid;
+}
+
+.dlsh {
+    width: 300px;
+    height: 300px;
+}
+
+.dl {
+    width: 300px;
+}
+
+.v {
+    height: 30px;
+}
+
+.zag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sin {
+    background: #00BFFF;
+}
+
+.bel {
+    background: #E0FFFF;
+}
